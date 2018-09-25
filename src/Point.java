@@ -1,27 +1,27 @@
 public class Point {
 
-    int coordinateX;
-    int coordinateY;
+    private double X;
+    private double Y;
 
 
-    public Point(int coordinateX, int coordinateY) {
-        this.coordinateX = coordinateX;
-        this.coordinateY = coordinateY;
+    public Point(double x, double y) {
+        X = x;
+        Y = y;
     }
 
-    public int getCoordinateX() {
-        return coordinateX;
+    public double getX() {
+        return X;
     }
 
-    public void setCoordinateX(int coordinateX) {
-        this.coordinateX = coordinateX;
+    public void setX(double x) {
+        X = x;
     }
 
-    public int getCoordinateY() {
-        return coordinateY;
+    public double getY() {
+        return Y;
     }
 
-    public void setCoordinateY(int coordinateY) {
-        this.coordinateY = coordinateY;
+    public void setY(double y) {
+        Y = y;
     }
 }
