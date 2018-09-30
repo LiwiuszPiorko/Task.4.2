@@ -8,8 +8,8 @@ public class Line {
         this.end = end;
     }
     public double getLength(){
-        double X =Math.pow((end.getX())-(start.getX()*2);
-        double Y =Math.pow((end.getY()-(start.getY()*2);
+        double X =((end.getX())-(start.getX())*2);
+        double Y =((end.getY())-(start.getY())*2);
         double length= Math.sqrt(X+Y);
         return length;
     }
